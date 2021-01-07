@@ -1,6 +1,3 @@
-//www.elegoo.com
-//2016.12.9
-
 void setup() {
   Serial.begin(9600);// setup Serial Monitor to display information
   pinMode(2, INPUT);// Input from sensor
@@ -13,7 +10,43 @@ void loop() {
   if(motion){
     Serial.println("Motion detected");
     digitalWrite(8,HIGH);
+    tone(11, 220);// Makes beeps from passive puzzer
+    delay(500);
+    noTone(11);
+    delay(500);
     tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+    tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+     tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+    tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+    tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+     tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+    tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+    tone(11, 220);
+    delay(500);
+    noTone(11);
+    delay(500);
+     tone(11, 220);
     delay(500);
     noTone(11);
     delay(500);
