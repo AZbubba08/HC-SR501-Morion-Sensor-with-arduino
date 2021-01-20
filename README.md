@@ -2,7 +2,7 @@
 
 Makes an alarm when motion is deceteced. 
 
-ONLY tested with an arduino UNO.
+ONLY tested with an arduino UNO R3.
 
 This code may work with other arduino bords.
 
